@@ -1,0 +1,117 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('image.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    backdrop-filter: blur(10px); /* Glass UI effect */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.range {
+    margin-bottom: 20px;
+}
+
+.range label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+}
+
+button.generate {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button.generate:hover {
+    background-color: #0056b3;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px); /* Glass UI effect */
+}
+
+.password input[type="text"] {
+    border: none;
+    flex-grow: 1;
+    font-size: 16px;
+    background: transparent;
+    color: #fff;
+}
+
+.password button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.password button:hover {
+    background-color: #218838;
+}
+
+.strength {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.strength span {
+    font-weight: bold;
+}
